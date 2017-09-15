@@ -134,11 +134,11 @@ app.post('/validate', function(req,res){
 // MongoClient.connect('mongodb://varun.l:payoda123@ds036967.mlab.com:36967/insurance-poc-db', (err, database) => {
 //   if (err) return console.log(err)
 //   db = database
-//   app.listen(process.env.PORT || 3000, () => {
-//     console.log('listening on 3000')
+//   app.listen(process.env.PORT || 1337, () => {
+//     console.log('listening on 1337')
 //   })
 // })
-  app.listen(process.env.PORT || 3000, () => {
-    console.log('listening on 3000')
+  app.listen(process.env.PORT || 1337, () => {
+    console.log('listening on 1337')
   })
-// app.listen(process.env.PORT || 3000);
+// app.listen(process.env.PORT || 1337);
