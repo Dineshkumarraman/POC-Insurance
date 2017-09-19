@@ -131,6 +131,7 @@ app.post('/validate', function(req,res){
   }
 });
 })
+console.log('Node version is: ' + process.version);
 // MongoClient.connect('mongodb://varun.l:payoda123@ds036967.mlab.com:36967/insurance-poc-db', (err, database) => {
 //   if (err) return console.log(err)
 //   db = database
@@ -139,6 +140,7 @@ app.post('/validate', function(req,res){
 //   })
 // })
   app.listen(process.env.PORT || 1338, () => {
+	  
     console.log('listening on 1338')
   })
 // app.listen(process.env.PORT || 1338);
